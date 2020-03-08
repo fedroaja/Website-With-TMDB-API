@@ -1,0 +1,122 @@
+
+.navbar {
+      padding-left: 8%;
+      padding-top: 35px;
+      padding-bottom: 35px;
+      font-size: 25px;
+      font-family: "Helvetica";
+      background-color: #055a45;
+    }
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+  background-color: #055a45;
+}
+
+
+ .navbar-brand{
+ 	padding-top: 2px;
+ 	padding-bottom: 32px;
+ 	padding-right: 50px;
+ }
+.navbar-brand > img {
+      max-height: 320%;
+   height: 320%;
+   width: auto;
+   margin: 0 auto;
+      -o-object-fit: contain;
+      object-fit: contain;
+    }
+
+ .container{
+ 	padding-top: 8%;
+ 	margin-bottom: 10%;
+
+
+ }
+
+.row.content {height: 900px}
+body{
+  background-color: #067580;
+}
+#kotak img{
+  position: absolute;
+  height: 350px;
+  width: 240px;
+  display: inline-block;
+  left: 5%;
+  top: 50%;
+
+}
+
+
+
+#jud{
+  position: absolute;
+  top:50%;
+  left:30%;
+  color:white;
+  font-size: 1em;
+  text-align: left;
+}
+#jud #judul{
+  font-size: 2em;
+}
+
+
+
+@media screen and (max-width: 992px){
+  #jud{
+    position: absolute;
+    top:230%;
+    left:5%;
+    color:white;
+    font-size: 2em;
+  }
+
+}
+
+@media screen and (max-width: 791px){
+  #jud{
+    position: absolute;
+    top:230%;
+    left:5%;
+    color:white;
+    font-size: 2em;
+  }
+
+}
+
+@media screen and (max-width: 690px){
+  #jud{
+    position: absolute;
+    top:330%;
+    left:5%;
+    color:white;
+    font-size: 2em;
+  }
+  #kotak img{
+  position: absolute;
+  height: 350px;
+  width: 240px;
+  display: inline-block;
+  left: 15%;
+  top: 80%;
+
+}
+
+
+}
+
+
+.modal-dialog {
+    width: 80%;
+    height: 100%;
+    padding: 50;
+    margin:50;
+}
+.modal-content {
+    height: 100%;
+    border-radius: 0;
+    color:#333;
+    overflow:auto;
+}

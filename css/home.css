@@ -1,0 +1,107 @@
+body{
+	background-color: #f1f4f5;
+}
+
+.navbar {
+      padding-left: 8%;
+      padding-top: 35px;
+      padding-bottom: 35px;
+      font-size: 25px;
+      font-family: "Helvetica";
+      background-color: #055a45;
+    }
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+	background-color: #055a45;
+}
+
+
+ .navbar-brand{
+ 	padding-top: 2px;
+ 	padding-bottom: 32px;
+ 	padding-right: 50px;
+ }
+.navbar-brand > img {
+      max-height: 320%;
+   height: 320%;
+   width: auto;
+   margin: 0 auto;
+      -o-object-fit: contain;
+      object-fit: contain;
+    }
+
+ .container{
+ 	padding-top: 15%;
+ 	margin-bottom: 10%;
+
+ }
+
+
+.row.content {height: 545px}
+
+
+
+#result img{
+
+	height: 350px;
+	width: 240px;
+	display: inline-block;
+
+
+}
+
+.tgl{
+	color:black;
+}
+
+.btn{
+
+	background-color: #b3ffe9;
+	cursor: pointer;
+
+}
+.jud{
+	color:black;
+}
+
+
+#result div{
+	height: 480px;
+	width: 240px;
+  	background-image: linear-gradient(to bottom, #00d89b ,#00d89b, #b3ffe9);
+  	border-radius: 8px;
+  	box-sizing: border-box;
+	box-shadow: 1px 12px 20px 3px #2bb97e;
+  	display: inline-block;
+  	margin: 17px;
+
+}
+#result{
+	margin-left: 30px;
+}
+
+@media screen and (max-width: 700px) {
+	 .container{
+ 	padding-top: 26%;
+ 	margin-bottom: 10%;
+
+ }
+ #result{
+	margin-left: 5px;
+}
+	table tr{
+		margin-bottom: 10px;
+		display: block;
+	}
+	table td{
+		display: block;
+		text-align: center;
+		font-size: 13px;
+	}
+
+	table td: before{
+		float: left;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+
+}

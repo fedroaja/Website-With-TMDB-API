@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Login</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  		<script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<script type="text/javascript" src="js/login.js"></script>
+		<style type="text/css">
+			body{
+				background-image: url(image/wallpaper1.jpg);
+			}
+		</style>
+</head>
+<body>
+	
+	<div class="login-box">
+		<h1>Login</h1>
+		<div class="textbox">
+			<div class="alert alert-danger collapse" style="width: 500px; font-size: 12px;">
+    	No User exist / Wrong Combination of User & Password
+	</div>
+			<i class="fa fa-user" aria-hidden="true"></i>
+			<input type="text" placeholder="Username"  name="" id="username" >
+		</div>
+
+		<div class="textbox">
+			<i class="fa fa-lock" aria-hidden="true"></i>
+			<input type="password" placeholder="Password" name="" id="password">
+		</div>
+
+		<input class="btn" type="button" name="" value="Login" onclick="login()">
+	</div>
+
+</body>
+</html>
